@@ -151,6 +151,16 @@ header {
     left: 35px;
 }
 
+.divider {
+    height: 380px;
+    width: 2px;
+    background-color: hsl(211, 10%, 45%);
+    opacity: 10%;
+    position: absolute;
+    left: 380px;
+    top: 485px;
+}
+
 .votenum {
     display: flex;
     justify-content: center;
