@@ -1,0 +1,111 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(223, 19%, 93%);
+}
+
+header {
+    padding: 10px;
+}
+
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(211, 10%, 45%);
+    margin: 2% auto 2%;
+    padding: 2% 15px 2%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.commentheader img {
+    width: 25px;
+    position: relative;
+    top: 6px;
+}
+
+.commentheader {
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.commenttext {
+    display: inline;
+}
+
+
+.at {
+    color: hsl(238, 40%, 52%);
+    font-weight:500;
+}
+
+.username {
+    margin: 10px;
+    font-weight: 500;
+    color: hsl(212, 24%, 26%);
+}
+
+.you {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 3px 7px 3px;
+    margin-right: 15px;
+    position: relative;
+    top: -1px;
+}
+
+.reply, .edit {
+    float:right;
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+
+.delete {
+    float:right;
+    color: hsl(358, 79%, 66%);
+    font-weight: 500;
+    position: relative;
+    right: 20px;
+    top: -3px;
+}
+
+.reply img, .edit img, .delete img {
+    width: 15px;
+    margin: 5px;
+}
+
+.vote {
+    background-color: hsl(223, 19%, 93%);
+    color: hsl(238, 40%, 52%);
+    font-weight:500;
+    border-radius: 13px;
+    margin: 10px;
+    padding: 5px 14px 5px;
+    margin-right: 25px;
+    width: 10px;
+
+}
+
+.votenum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0px 7px;
+}
+
+.vote img {
+    padding: 10px 0;
+}
+
+.attribution {
+    display: block;
+    float: left;
+}
