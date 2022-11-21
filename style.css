@@ -82,6 +82,22 @@ header {
     margin: 5px;
 }
 
+.reply:hover, .delete:hover, .edit:hover {
+    opacity: 50%;
+}
+
+.reply:active, .delete:active, .edit:active {
+    opacity: 80%;
+}
+
+.vote img:hover {
+    filter: brightness(50%);
+}
+
+.vote img:active {
+    filter: brightness(20%);
+}
+
 .vote {
     background-color: hsl(223, 19%, 93%);
     color: hsl(238, 40%, 52%);
